@@ -1,0 +1,17 @@
+---
+- !!python/object/apply:collections.OrderedDict
+  - - - vendor
+      - peugeot
+    - - model
+      - '508'
+    - - attribs
+      - colour: red
+        power_horse: '150'
+- !!python/object/apply:collections.OrderedDict
+  - - - vendor
+      - citroen
+    - - model
+      - ds5
+    - - attribs
+      - colour: grey
+        power_horse: '170'
